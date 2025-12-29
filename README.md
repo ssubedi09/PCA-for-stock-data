@@ -67,7 +67,7 @@ We implemented a simple trading strategy: **Buy if the model predicts a positive
 * **Interpretation:**
     * **Market Context:** The test period (late 2021) was generally bullish/choppy.
     * **Comparison:** While the models successfully captured profit, they slightly underperformed the aggressive "Buy & Hold" baseline. This is common in strong bull markets, as trading strategies often exit positions during minor pullbacks, missing out on some upside.
-    * **PCA vs. No-PCA:** The PCA strategy (Blue) tracked closer to the baseline and generally showed smoother equity curves compared to the No-PCA strategy, reinforcing the idea that PCA helped filter out false trading signals.
+    * **PCA vs. No-PCA:** Both strategy tracket closer to the baseline.
 
 ---
 
